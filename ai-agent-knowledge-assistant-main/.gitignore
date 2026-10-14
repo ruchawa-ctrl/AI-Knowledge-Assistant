@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.sqlite3
+
+# Env / secrets
+.env
+*.local
+
+# App data (vector store, uploads, db)
+backend/data/
+
+# Node
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
